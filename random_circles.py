@@ -5,7 +5,6 @@ from random import randint
 from UI import Ui_Form
 
 
-print()
 class MyWidget(QMainWindow, Ui_Form):
     def __init__(self):
         super().__init__()
